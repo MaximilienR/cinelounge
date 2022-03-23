@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "rubik";
+  src: url("../font/Rubik-Italic-VariableFont_wght.ttf"),
+    url("../font/Rubik-VariableFont_wght.ttf");
+}
+.cartcadglob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.parthautcard {
+  display: flex;
+  height: 129px;
+  width: 856px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-family: "rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.logocart {
+  height: 80px;
+}
+.infocart {
+  float: left;
+  height: 70px;
+  width: 856px;
+  font-family: "rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.selectcard {
+  height: 25px;
+  width: 856px;
+  font-family: "rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+}
+.selectprixcard {
+  width: 856px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selectprixcard p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 115px;
+  background-color: #fff;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.selectprixcard p:hover {
+  background-color: black;
+}
+
+.casecard {
+  background-color: #fff;
+  width: 175px;
+  height: 115px;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  filter: drop-shadow(2px 3px 4px rgba(0, 141, 202, 0.25));
+}
+.casecard span {
+  display: flex;
+  justify-content: center;
+  line-height: 115px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 30px;
+  color: #334756;
+}
+.dispcard {
+  display: none;
+}
+.dispcard:checked ~ span {
+  background-color: #334756;
+  color: #fbfbfb;
+  border-radius: 10px;
+}
+.panier_card {
+  width: 260px;
+  height: 50px;
+  font-family: "rubik";
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #082032;
+  background: #f0a500;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 160px;
+}

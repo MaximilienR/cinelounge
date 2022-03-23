@@ -1,0 +1,25 @@
+.flex_cont {
+  display: flex;
+  place-content: start space-evenly;
+  padding-bottom: 2em;
+}
+.taille {
+  width: 476px;
+  height: 274px;
+  margin-bottom: 2em;
+}
+@media screen and (max-width: 1000px) {
+  .flex_cont {
+    display: grid;
+  }
+  .taille {
+    margin-bottom: 2em;
+  }
+}
+.titlepage {
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  font-size: 25px;
+  font-family: "allerta Stencil";
+}

@@ -1,0 +1,41 @@
+.breadCrumb {
+  display: flex;
+}
+.breadCrumbNav {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.cd-breadcrumb {
+  display: flex;
+  color: white;
+}
+.cd-breadcrumb.custom-separator li::after,
+.cd-multi-steps.custom-separator li::after {
+  content: "";
+  height: 16px;
+  width: 16px;
+  background: url(https://codyhouse.co/demo/breadcrumbs-multi-steps-indicator/img/cd-custom-separator.svg)
+    no-repeat center center;
+  vertical-align: middle;
+}
+.cd-breadcrumb li::after,
+.cd-multi-steps li::after {
+  display: inline-block;
+  content: "\00bb";
+  margin: 0 0.6em;
+  color: white;
+}
+.current em {
+  font-weight: bold !important;
+}
+li.current::after {
+  display: none;
+}
+.searchView {
+  background-image: url("http://localhost:3000/cinelounge_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

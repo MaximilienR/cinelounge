@@ -1,0 +1,48 @@
+.general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50%;
+  max-width: 30%;
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 100%;
+}
+
+.formulary {
+  width: 50%;
+}
+
+.buttonContainer {
+  width: 50%;
+}
+
+.formaction {
+  min-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContain {
+  width: 100%;
+}
+
+.forminput {
+  width: 100%;
+}

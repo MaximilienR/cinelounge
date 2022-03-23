@@ -1,0 +1,293 @@
+/*top vente*/
+
+.topright h3 {
+  display: flex;
+  padding: 1em;
+  font-weight: normal;
+  font-family: fira font-firaCode;
+  font-size: 18px;
+}
+.topright h3 p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.topright h2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "allerta Stencil";
+}
+.lacasa {
+  border-radius: 10px;
+  box-shadow: 5px 5px #dddddd;
+  width: 62.5em;
+  height: 26.875em;
+  margin: auto;
+  position: static;
+}
+
+.viewmore a {
+  font-size: 1.5rem;
+  background: #f0a500;
+  padding: 0.5rem 3rem;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px;
+  left: 63%;
+  bottom: 3em;
+}
+.viewmore2 a {
+  left: 300%;
+  font-size: 1.5rem;
+  background: #f0a500;
+  padding: 0.5rem 3rem;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px;
+  bottom: 2.2em;
+}
+@media screen and (max-width: 1700px) {
+  .viewmore2 a {
+    left: 270%;
+    bottom: 2em;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .viewmore2 a {
+    left: 250%;
+    bottom: 2em;
+    font-size: 1.2rem;
+    padding: 0.3rem 2.5rem;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .viewmore2 a {
+    left: 200%;
+    font-size: 1rem;
+    padding: 0.2rem 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .viewmore2 a {
+    display: none;
+  }
+}
+.topventeglob {
+  background-color: #50606f;
+  padding-bottom: 1em;
+  border-radius: 20px;
+  width: 70%;
+  margin-left: 20%;
+}
+.articles {
+  margin: 1em;
+  display: flex;
+  /* background: linear-gradient(#334756 60%, transparent 100%); */
+  flex-wrap: wrap;
+  place-content: start space-evenly;
+}
+.article_unique {
+  margin: 1em auto;
+  background-color: white;
+  border-radius: 5%;
+}
+.article_n {
+  margin: 1em;
+  width: 25em;
+  border-radius: 5%;
+}
+.name-article {
+  border-top: 0.5em solid #334756;
+  text-align: center;
+  font-size: 1.5em;
+}
+.prix-article {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.decal {
+  margin: 2em;
+}
+.centre {
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tourimgprom {
+  height: 286px;
+  width: 307px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bloquage_nom {
+  max-width: 307px;
+  font-family: fira font-firaCode;
+}
+.affichage_prix {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.promoflex ul {
+  display: flex;
+  justify-content: space-between;
+  max-height: 40px;
+}
+.promoflex li {
+  cursor: pointer;
+}
+
+/*police écriture*/
+@font-face {
+  font-family: "rubik";
+  src: url("../font/Rubik-Italic-VariableFont_wght.ttf"),
+    url("../font/Rubik-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "allerta Stencil";
+  src: url("../font/AllertaStencil-Regular.ttf");
+}
+
+.filcarou {
+  display: flex;
+}
+/*carousel*/
+.carrous {
+  width: 62.5em;
+  height: 26.875em;
+  margin: auto;
+  position: static;
+  margin-bottom: 2%;
+}
+@media screen and (max-width: 1290px) {
+  .carrous {
+    display: none;
+  }
+  .viewmore {
+    display: none;
+  }
+}
+.carousel-status {
+  display: none;
+}
+.control-arrow {
+  border-radius: 10px;
+}
+.carrous img {
+  border-radius: 10px;
+  box-shadow: 5px 5px #dddddd;
+  width: 62.5em;
+  height: 26.875em;
+}
+.carrous ul {
+  display: none;
+}
+/*pagination top vente */
+.next {
+  width: 120px;
+  height: 34px;
+  background: #fbfbfb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  text-align: center;
+  font-family: "rubik";
+  display: block;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  bottom: 35px;
+  right: 2em;
+}
+.pagiespac {
+  margin-bottom: 1.5em;
+}
+.prevedent {
+  position: relative;
+  top: 52px;
+  left: 2em;
+  width: 120px;
+  height: 34px;
+  background: #fbfbfb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  text-align: center;
+  font-family: "rubik";
+  display: block;
+  cursor: pointer;
+}
+.droite {
+  font-size: 20px;
+  line-height: 24px;
+}
+.gauche {
+  font-size: 20px;
+  line-height: 24px;
+}
+.test {
+  width: 24px;
+  height: 34px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 17px;
+  justify-content: center;
+  margin-left: 1em;
+}
+@media screen and (max-width: 1200px) {
+  .test {
+    position: relative;
+    bottom: 34px;
+  }
+  .prevedent {
+    top: 5px;
+  }
+  .next {
+    bottom: 50px;
+  }
+  .TopVentes {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .test {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .topventeglob {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 2400px) {
+  @media screen and (min-width: 1500px) {
+    .topventeglob {
+      width: 1200px;
+      margin-left: 300px;
+    }
+  }
+  @media screen and (min-width: 1700px) {
+    .topventeglob {
+      width: 1350px;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .topventeglob {
+      width: 1500px;
+    }
+  }
+  @media screen and (min-width: 2400px) {
+    .topventeglob {
+      width: 2000px;
+    }
+  }
+}

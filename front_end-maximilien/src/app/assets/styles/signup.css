@@ -1,0 +1,35 @@
+/* cree un compte */
+.form {
+  margin-bottom: 0;
+}
+.sign_info {
+  width: 60%;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+.btn_sign {
+  background-color: #f0a500;
+  margin-left: 40%;
+  color: #082032;
+  border-radius: 5px;
+  width: 20%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  height: 35px;
+}
+.text-red-400 {
+  margin-left: 20%;
+}
+.forget {
+  margin-left: 35%;
+}
+p.forget {
+  color: #f1f1f1;
+}
+.hote {
+  background-color: #334756;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  padding-bottom: 2%;
+}

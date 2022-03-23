@@ -1,0 +1,58 @@
+.selectCategories .dropdown:hover .dropdown-menu {
+  display: block;
+  z-index: 10;
+}
+
+.selectCategories .Dropdown-control {
+  border: none !important;
+}
+.selectCategories .Dropdown-menu {
+  overflow-y: hidden !important;
+  border: none !important;
+  position: static !important;
+}
+.selectCategories .Dropdown-control:hover {
+  box-shadow: none !important;
+}
+.selectCategories .arrow-closed,
+.selectCategories .arrow-open {
+  border: solid #999;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  position: absolute;
+  right: 10px;
+}
+
+.selectCategories .arrow-closed {
+  top: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.selectCategories .arrow-open {
+  top: 14px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.selectCategories .Dropdown-arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  content: " ";
+  display: block;
+  height: 0;
+  margin-top: -ceil(2.5);
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  width: 0;
+}
+
+.selectCategories .is-open .Dropdown-arrow {
+  border-color: transparent transparent #999;
+  border-width: 0 5px 5px;
+}
+.Dropdown-menu {
+  max-height: 650px;
+}

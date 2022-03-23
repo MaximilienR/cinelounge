@@ -1,0 +1,77 @@
+.titreprofile {
+  text-align: center;
+  font-family: "Allerta Stencil";
+  font-style: normal;
+  font-size: 25px;
+  color: #2c2c2c;
+  padding-top: 2%;
+}
+.information {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+  margin-top: 1em;
+}
+
+.informationlab {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  width: 20%;
+  margin-top: 6px;
+  color: black;
+  margin-left: 5%;
+  font-family: "Rubik";
+  font-size: 20px;
+  line-height: 24px;
+}
+.civi {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  width: 20%;
+  margin-top: 6px;
+  color: black;
+  margin-left: 5%;
+  font-family: "Rubik";
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.civiM {
+  width: 60%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2c2c2c;
+  margin-left: 1em;
+  margin-right: 0.2em;
+}
+
+.enre {
+  margin-top: 2em;
+  margin-right: 2em;
+  width: 259px;
+  height: 49px;
+  background-color: #f0a500;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  float: right;
+  font-family: "Rubik";
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.ConfInfo {
+  width: 259px;
+  height: 49px;
+  background-color: #f0a500;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Rubik";
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-left: 50%;
+}

@@ -1,0 +1,99 @@
+/*connexion*/
+.title_ConnecView {
+  text-align: center;
+  color: #082032;
+  font-size: 20pt;
+}
+.form_Connect {
+  background: #334756;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.inputMail {
+  width: 35%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+/*modal*/
+.bobyModal {
+  width: 1200px;
+  margin-top: 0px;
+}
+.title_modal {
+  text-align: center;
+  color: #f0a500;
+  font-size: 20pt;
+  margin-top: 3%;
+}
+.x {
+  margin-left: 100%;
+}
+
+.btn_reinitialiser,
+.btn_inscript {
+  color: #f0a500;
+}
+.btn_connect {
+  margin-left: 40%;
+  background-color: #f0a500;
+  color: #082032;
+  border-radius: 5px;
+  width: 10%;
+  margin-top: 4%;
+  height: 35px;
+}
+.check {
+  margin-left: 30%;
+  color: #f1f1f1;
+}
+.btn_contact,
+.btn_inscrire {
+  margin-left: 45%;
+  background-color: #f0a500;
+  color: #082032;
+  border-radius: 5px;
+  width: 10%;
+  margin-bottom: 2%;
+  height: 35px;
+}
+
+.btn_connect:hover {
+  background-color: #008dca;
+  color: #fff;
+}
+<<<<<<< HEAD
+.forget {
+  
+  margin-left: 40%;
+  margin-top: 1%;
+}
+=======
+>>>>>>> 012aa4057d05996763fe57213587a8d98296374a
+
+@media screen and (max-width: 800px) {
+  .seized {
+    height: 100px;
+  }
+  .hote {
+    margin-bottom: 3%;
+  }
+
+  .btn_connect,
+  .btn_contact {
+    margin-left: 30%;
+    background-color: #f0a500;
+    color: #082032;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 5%;
+    height: 35px;
+  }
+  .inputMail {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+}

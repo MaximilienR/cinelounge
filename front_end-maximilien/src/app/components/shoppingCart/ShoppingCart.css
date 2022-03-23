@@ -1,0 +1,24 @@
+.shoppingCart {
+  color: black;
+}
+.row,
+.left {
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  margin-left: 20px;
+}
+.thumbnail {
+  height: auto;
+  width: 400px;
+}
+.thumbnail img {
+  height: 60px;
+}
+.containerShopping {
+  margin-left: 20px;
+}
+.quantity {
+  color: black;
+}
